@@ -24,3 +24,44 @@ security_credentials
 connectionstring
 ssh2_auth_password
 DB_PASSWORD
+filename:.npmrc _auth
+filename:.dockercfg auth
+extension:pem private
+filename:id_rsa or filename:id_dsa
+extension:sql mysql dump
+extension:sql mysql dump password
+filename:credentials aws_access_key_id
+filename:wp-config.php
+filename:.htpasswd
+filename:.env MAIL_HOST=smtp.gmail.com
+filename:.git-credentials
+filename:.bashrc password
+filename:.bash_profile aws
+rds.amazonaws.com password
+extension:json api.forecast.io
+extension:json mongolab.com
+SF_USERNAME salesforce
+filename:.tugboat NOT _tugboat
+filename:.netrc password
+filename:_netrc password
+filename:hub oauth_token
+filename:filezilla.xml Pass
+filename:recentservers.xml Pass
+filename:config irc_pass
+filename:connections.xml
+filename:.pgpass
+filename:proftpdpasswd
+filename:.bash_history
+filename:sshd_config
+filename:dhcpd.conf
+filename:prod.exs NOT prod.secret.exs
+filename:config.php dbpasswd
+shodan_api_key language:python
+filename:shadow path:etc
+filename:passwd path:etc
+filename:.esmtprc password
+msg nickserv identify filename:config
+filename:.ftpconfig
+filename:github-recovery-codes.txt
+filename:gitlab-recovery-codes.tx
+filename:CCCam.cfg
